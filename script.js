@@ -1,9 +1,9 @@
 function generatePassword() {
   const length = document.getElementById("length").value;
 
-  const upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  const lower = "abcdefghijklmnopqrstuvwxyz";
-  const numbers = "0123456789";
+  const upper = "ABCDEFGHJKLMNPQRSTUVWXYZ";
+  const lower = "abcdefghjkmnopqrstuvwxyz";
+  const numbers = "123456789";
   const symbols = "!@#$%^&*()-_=+[]{};:,.<>?/|";
 
   const allChars = upper + lower + numbers + symbols;
